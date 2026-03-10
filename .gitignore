@@ -1,0 +1,6 @@
+# Build artifacts
+*.o
+tetris
+
+# macOS
+.DS_Store
