@@ -4,3 +4,4 @@ tetris
 
 # macOS
 .DS_Store
+.cache/

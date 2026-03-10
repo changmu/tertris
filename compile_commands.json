@@ -1,0 +1,66 @@
+[
+  {
+    "file": "src/board.cpp",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-Wall",
+      "-Wextra",
+      "-O2",
+      "-c",
+      "-o",
+      "src/board.o",
+      "src/board.cpp"
+    ],
+    "directory": "/Users/windqiu/work/cppproj/tertris",
+    "output": "src/board.o"
+  },
+  {
+    "file": "src/game.cpp",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-Wall",
+      "-Wextra",
+      "-O2",
+      "-c",
+      "-o",
+      "src/game.o",
+      "src/game.cpp"
+    ],
+    "directory": "/Users/windqiu/work/cppproj/tertris",
+    "output": "src/game.o"
+  },
+  {
+    "file": "src/main.cpp",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-Wall",
+      "-Wextra",
+      "-O2",
+      "-c",
+      "-o",
+      "src/main.o",
+      "src/main.cpp"
+    ],
+    "directory": "/Users/windqiu/work/cppproj/tertris",
+    "output": "src/main.o"
+  },
+  {
+    "file": "src/renderer.cpp",
+    "arguments": [
+      "clang++",
+      "-std=c++23",
+      "-Wall",
+      "-Wextra",
+      "-O2",
+      "-c",
+      "-o",
+      "src/renderer.o",
+      "src/renderer.cpp"
+    ],
+    "directory": "/Users/windqiu/work/cppproj/tertris",
+    "output": "src/renderer.o"
+  }
+]
