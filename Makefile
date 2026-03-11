@@ -1,4 +1,9 @@
-CXX      := clang++
+UNAME_S  := $(shell uname -s)
+ifeq ($(UNAME_S),Darwin)
+  CXX := clang++
+else
+  CXX := g++
+endif
 CXXFLAGS := -std=c++23 -Wall -Wextra -O2
 LDFLAGS  := -lncurses
 

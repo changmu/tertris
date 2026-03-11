@@ -53,8 +53,8 @@ void Game::handleInput(int key) {
         case KEY_LEFT:   if (state_ == Playing) moveLeft();   break;
         case KEY_RIGHT:  if (state_ == Playing) moveRight();  break;
         case KEY_UP:
-        case 'z': case 'Z':
-                         if (state_ == Playing) rotateCW();   break;
+        case 'z':
+        case 'Z':        if (state_ == Playing) rotateCW();   break;
         case KEY_DOWN:   if (state_ == Playing) softDrop();   break;
         case ' ':        if (state_ == Playing) hardDrop();   break;
         default: break;
