@@ -1,6 +1,7 @@
 # Build artifacts
 *.o
 tetris
+compile_commands.json
 
 # macOS
 .DS_Store
